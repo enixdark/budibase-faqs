@@ -2,7 +2,7 @@
 
 Budibase là một nền tảng low-code all in one để giúp cho việc xây dựng, thiết kế và tự động hóa các ứng dụng kinh doanh, ví dụ như: admin panels, forms, internal tools, client portals, etc. Trước khi có Budibase, các nhà phát triển có thể mất hàng tuần để xây dựng các ứng dụng CRUD đơn giản; với Budibase, việc xây dựng các ứng dụng CRUD chỉ mất vài phút.
 
-## vì sao sủ dụng lại sử dụng Budibase 
+## vì sao lại sử dụng Budibase
 
 Có nhiều công cụ và framework khác nhau để bạn xây dựng ứng dụng web. Tuy vậy Budibase là sự lựa chọn tốt nhất để xây dựng các ứng dụng kinh doanh hiện đại.
 
@@ -15,10 +15,10 @@ Real apps - Với Budibase, bạn có thể xây dựng các high-performing sin
 
 ### Sử dụng budibase
 
-Trong phần này chúng ta sẽ tập trung vào việc ứng dụng tạo một app có tên là MyApp với budibase 
+Trong phần này chúng ta sẽ tập trung vào việc ứng dụng tạo một app có tên là MyApp với budibase
 
 Trước tiên truy cập `http://localhost:8080`
-Nếu bạn chưa chạy thì hay tạo budibase với docker 
+Nếu bạn chưa chạy thì hay tạo budibase với docker
 
 ```
 version: "3"
@@ -58,4 +58,6 @@ Trong phần này chúng ta lựa chọn dùng local storage của budibase qua 
 
 
 
-Budibase cung cấp một tập các [template](https://github.com/Budibase/templates) để bạn có thể sử dụng như ví dụ mẫu 
+Budibase cung cấp một tập các [template](https://github.com/Budibase/templates) để bạn có thể sử dụng như ví dụ mẫu
+
+![Budibase](images/budibase3.png)
