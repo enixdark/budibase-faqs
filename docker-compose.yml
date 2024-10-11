@@ -1,0 +1,22 @@
+version: "3"
+
+services:
+  budibase:
+    #restart: unless-stopped
+    image: budibase/budibase:latest
+    ports:
+      - "8080:80"
+    environment:
+      JWT_SECRET: password
+      #MINIO_ACCESS_KEY: <secret>
+      #MINIO_SECRET_KEY: <secret>
+      REDIS_PASSWORD: password
+      COUCHDB_USER: username
+      COUCHDB_PASSWORD: password
+      INTERNAL_API_KEY: key
+    volumes:
+      - budibase_data:/data
+
+volumes:
+  budibase_data:
+    driver: local
